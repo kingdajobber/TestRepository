@@ -1,0 +1,7 @@
+1、拥有git账号，了解overview的内容
+2、设置个人信息，可尝试关注其他账号、收藏仓库、Fork仓库等
+3、新建个人仓库，创建文件并学会查看历史和编辑、提交文件
+4、PC端使用Git Bash工具(Mac自带)，利用Bash命令配置Git环境：
+    git config --list //  git config --global user.name "用户名"  //  git config --global user.email "邮件地址"
+5、使用Git Bash命令，在本地指定folder建立Git仓库：git init
+6、
