@@ -18,3 +18,5 @@
     
 10、将本地git仓库内容推送到Remote git仓库：
     git push -u oring master
+    
+11、可以创建隐藏文件【.gitignore】写入需要ignore的文件或类型，实现忽略提交的效果    
