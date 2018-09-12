@@ -19,4 +19,7 @@
 10、将本地git仓库内容推送到Remote git仓库：
     git push -u oring master
     
-11、可以创建隐藏文件【.gitignore】写入需要ignore的文件或类型，实现忽略提交的效果    
+11、可以创建隐藏文件【.gitignore】写入需要ignore的文件或类型，实现忽略提交的效果
+
+12、可以通过更改配置文件中alias，实现命令缩写别名：
+    git config --global alias.[别名] [原命令]
