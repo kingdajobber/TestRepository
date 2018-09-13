@@ -23,3 +23,16 @@
 
 12、可以通过更改配置文件中alias，实现命令缩写别名：
     git config --global alias.[别名] [原命令]
+    
+13、git可以支持多种协议：本地协议、git协议、HTTP(S)协议(文本传输传速慢)、SSH协议(压缩率最大，传速快)。
+    其中主要用：HTTP(S)协议、SSH协议。
+    git clone https://github.com/kingdajobber/TestRepository
+    git clone SSH://git@git.com:kingdajobber/TestRepository
+    
+14、SSH协议需要建立钥匙对(包括一个私钥，一个公钥)
+    ssh-keygen -t rsa -C "[备注]多用邮箱"
+    创建路径 ～/.ssh 并生成 id_rsa / id_rsa.pub 一对钥匙文件
+    
+15、将 id_rsa.pub 公钥的内容复制，并复制到git网站的个人设置中，创建公钥
+
+16、使用SSH协议的clone命令，在本地创建SSH协议的git仓库。(之前用的都是基于HTTP(S)协议)
