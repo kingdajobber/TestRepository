@@ -45,3 +45,8 @@
     [内容摘要(选填)]
     ---空行---
     [footer(选填)]
+    
+19、git log 的一些用法：
+    git log [file name]   查看某个文件的提交历史
+    git log --grep [msg]  根据msg筛选提交历史
+    git log -n  查看前n条提交历史日志
