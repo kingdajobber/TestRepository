@@ -50,3 +50,10 @@
     git log [file name]   查看某个文件的提交历史
     git log --grep [msg]  根据msg筛选提交历史
     git log -n  查看前n条提交历史日志
+    
+20、git diff 可以查看不同版本的差异：
+    git diff 比较缓存和本地
+    git diff HEAD --cached 比较仓库和缓存差异
+    git diff HEAD 比较仓库和本地差异
+    git diff HEAD HEAD^ 比较仓库中两个版本差异(也可用哈希值代替)
+    git tag [tag_name] [哈希值]  给哈希值的文件定义标签
