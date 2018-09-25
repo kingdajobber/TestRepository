@@ -59,4 +59,21 @@
     git tag [tag_name] [哈希值]  给哈希值的文件定义标签
     
 21、git撤销操作：
+    git reset [HEAD] --hard   , 撤销最后一次提交(缓存区+本地)
+    
+22、git分支的常用命令：
+    创建分支：git branch [br Name]
+    切换分支：git checkout [br Name]
+    创建并切换分支：git checkout -b [br Name]
+    修改br Name：git branch -m [old_name] [new_name]
+    删除分支：git branch -d [br Name]
+    显示分支：git bran ch -r  /  git branch -v
+    合并分支：git merge [br Name]
+    临时存储：git stash   用于分支上的修改未提交时，进行分支切换用
+    弹出stash进度：git stash pop
+    查看stash列表：git stash list
+    删除stash缓存：git stash clear
+    
+    
+    
     
