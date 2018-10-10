@@ -67,12 +67,18 @@
     创建并切换分支：git checkout -b [br Name]
     修改br Name：git branch -m [old_name] [new_name]
     删除分支：git branch -d [br Name]
-    显示分支：git bran ch -r  /  git branch -v
+    显示分支：git branch -r  /  git branch -v
     合并分支：git merge [br Name]
     临时存储：git stash   用于分支上的修改未提交时，进行分支切换用
     弹出stash进度：git stash pop
     查看stash列表：git stash list
     删除stash缓存：git stash clear
+    
+23、功能分支工作流
+    本地新建分支：git checkout -b featureA
+    本地分支做文件修改
+    推送分支到remote：git push origin featureA
+    Open 一个 Pull Request，可以评审确认并合并
     
     
     
