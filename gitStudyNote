@@ -75,11 +75,17 @@
     查看stash列表：git stash list
     删除stash缓存：git stash clear
     
-23、功能分支工作流
+23、功能分支工作流(适用于企业内部)
     本地新建分支：git checkout -b featureA
     本地分支做文件修改
     推送分支到remote：git push origin featureA
     Open 一个 Pull Request，可以评审确认并合并
+    
+24、Fork工作流(适用于)
+    Fork 原始仓库到自己的 remote origin
+    clone 上一步的仓库到本地
+    添加 原始仓库为自己的 remote upstream
+    通过 get pull upstream master 保持本地仓库最新，然后 git push origin master 保持 remote origin = remote upstream
     
     
     
