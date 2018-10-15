@@ -86,6 +86,7 @@
     clone 上一步的仓库到本地
     添加 原始仓库为自己的 remote upstream
     通过 get pull upstream master 保持本地仓库最新，然后 git push origin master 保持 remote origin = remote upstream
+    通过 pull request 申请并完成 remote origin 合并到 remote upstream
     
     
     
